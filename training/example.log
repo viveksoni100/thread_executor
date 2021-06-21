@@ -1,0 +1,1 @@
+0 [main] INFO training.logging.LoggingExample  - Sample info Msg%1 [main] WARN training.logging.LoggingExample  - Sample warn Msg%1 [main] ERROR training.logging.LoggingExample  - Sample error Msg%1 [main] FATAL training.logging.LoggingExample  - Sample fatal Msg%
