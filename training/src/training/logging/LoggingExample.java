@@ -1,11 +1,8 @@
 package training.logging;
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.apache.log4j.xml.DOMConfigurator;
-import sun.jvm.hotspot.debugger.cdbg.CDebugger;
 import training.report.Report;
+
+import java.util.logging.Logger;
 
 /**
  * @author Ashish Patel
@@ -13,7 +10,7 @@ import training.report.Report;
 public class LoggingExample {
 
 
-    static final Logger logger = Logger.getLogger(LoggingExample.class);
+    //static final Logger logger = Logger.getLogger(LoggingExample.class);
 
     public static void main(String[] args) {
 //        basicLogger();
@@ -26,15 +23,15 @@ public class LoggingExample {
     }
 
     static void printLogs() {
-        logger.debug("Sample debug Msg");
+        /*logger.debug("Sample debug Msg");
         logger.info("Sample info Msg");
         logger.warn("Sample warn Msg");
         logger.error("Sample error Msg");
-        logger.fatal("Sample fatal Msg");
+        logger.fatal("Sample fatal Msg");*/
     }
 
     static void basicLogger() {
-        BasicConfigurator.configure();
+        /*BasicConfigurator.configure();*/
     }
 
     static void propertyFileConfigure() {
